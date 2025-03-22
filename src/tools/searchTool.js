@@ -22,7 +22,7 @@ class WebSearchTool extends Tool {
       // Check if API credentials are available
       if (!this.apiKey || !this.searchEngineId) {
         console.warn('Google Search API credentials not found. Using sample results instead.');
-        return this._useSampleResponse(query);
+        return "Tool is not configured. Please continue without using this tool.";
       }
 
       // Initialize the Custom Search API
