@@ -1,0 +1,38 @@
+{
+  "name": "ai-agent-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "ai-agent": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-agent": "node test-agent.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "ai",
+    "agent",
+    "cli",
+    "langchain",
+    "langgraph",
+    "google-search",
+    "openai"
+  ],
+  "description": "A simple AI agent CLI built with LangGraph and Google Search integration",
+  "dependencies": {
+    "@langchain/core": "^0.3.42",
+    "@langchain/langgraph": "^0.2.57",
+    "@langchain/openai": "^0.4.7",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.7",
+    "googleapis": "^134.0.0",
+    "langchain": "^0.3.19",
+    "langsmith": "^0.3.14"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
